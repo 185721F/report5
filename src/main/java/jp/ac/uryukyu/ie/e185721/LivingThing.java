@@ -6,6 +6,14 @@ public class LivingThing {
     private int attack;
     private boolean dead;
 
+    /**
+     *コンストラクタ。
+     * deadがfalseなのか判定する。Hero,EnemyのどちらかのHP、どちらかの攻撃力が出力される(実行されるコンストラクタで変わる。)
+     * @param name
+     * @param hitPoint
+     * @param attack
+     */
+
     public LivingThing(String name, int hitPoint, int attack) {
         this.name = name;
         this.attack = attack;
